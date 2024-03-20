@@ -1,0 +1,38 @@
+body {
+  background-image: url(Images/galaxy.jpg);
+  background-size: cover;
+}
+
+.font {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 300%;
+  text-shadow: 2px 2px #ea1fbecf;
+}
+/* Importing Open Sans Condensed Google font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+#hanako {
+  max-width: 30em;
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#digital-clock {
+  color: rgb(199, 21, 239);
+  background-color: #39424292;
+  width: 35%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 300%;
+  text-align: center;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
